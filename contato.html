@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>200º G.E. Novo Horizonte-RJ</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="imagens/log2.png" alt="Logo do grupo"></h1>
+					<nav>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="escotismo.html"> Escotismo</a></li>
+							<li><a href="ramos.html"> Ramos</a></li>
+							<li><a href="contato.html">Contato</a></li>
+					 	</ul>
+					</nav>
+			</div>
+		</header>
+
+		<img class="banner" src="imagens/4.jpg">
+		<main>
+			<form>
+				<label for="nomesabrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesabrenome" class="input-padrao" required>
+				
+				<label for="email">E-mail</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="conta@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required  placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="69" rows="10" id="mensagem" class="input-padrao" required ></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					
+					<label for="radio-email"><input type="radio" name="contato" value="e-mail" id="radio-email">E-mail</label>
+					
+
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+					
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual o horário prefere ser atendido?</legend>
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+
+			</form>
+
+			<table>
+				<thead>
+					<tr>
+						<td>Dia</td>
+						<td>Horário</td>
+					</tr>
+				</thead>
+
+				<tbody>
+
+					<tr>
+						<td>Sábados</td>
+						<td>15:00h ~ 17:30h</td>
+					</tr>
+
+				</tbody>
+			</table>
+			
+		</main>
+		<footer>
+			<img src="imagens/ueb.png" alt="Logo da UEB" width="90">
+			<p class="copyright">&copy; Copyright 200º G.E. Novo Horizonte-RJ<p/>
+				<div>
+						<span><img src="imagens/f_2.jpg" alt="icon facebook"  width="50"></span>
+						<span><img src="imagens/w_2.jpg" alt="icon facebook"  width="50"></span>
+						<span><img src="imagens/i_2.jpg" alt="icon facebook"  width="50"></span>
+						<span><img src="imagens/t_2.jpg" alt="icon facebook"  width="50"></span>
+				</div>
+		</footer>
+	</body>
+</html>
