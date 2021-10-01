@@ -239,7 +239,7 @@ td, th {
     nav {
         position: static;
     }
-    .imagem-beneficios, .beneficios{
+    .imagem-beneficios{
         width: 100%;
     }
 }
